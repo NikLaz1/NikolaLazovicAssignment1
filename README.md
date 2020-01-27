@@ -1,44 +1,22 @@
-# 01 HTML CSS Git: Code Refactor
-
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
-
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
-
-> Always leave the code you are editing a little cleaner than you found it.
-
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-1) GIVEN a webpage meets accessibility standards (SEO Optimization 10 rules site*)
-WHEN I view the source code
-2) THEN I find semantic HTML elements (Update Page to give meaning to each element that needs it (ie h1 class ="logo")) ❤️️
-WHEN I view the structure of the HTML elements
-3) THEN I find that the elements follow a logical structure independent of styling and positioning (Making sure Html is structured and descriptive) ❤️️
-WHEN I view the image elements
-4) THEN I find accessible alt attributes (Going through all img's and addin alt attributes) ❤️️
-WHEN I view the heading attributes 
-5) THEN they fall in sequential order 
-WHEN I view the title element
-6) THEN I find a concise, descriptive title ❤️️
-```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+So i took the initial HTML file and refactored it to include the following:
+1) More SEO friendly. This includes the tags at the beginning and the links.
+1b) SEO friendly meta tags
+1c) Open graph tag
+1d) Twitter card tag
+1e) Robots tag
+1f) Canonical tag
+1g) No follow link
+1h) An SEO friendly title
+2) More Clear and concise HTML structuring.
+3) More clear id tags on the elements that needed them. 
+4) I also refactored the code using Bootstrap to do the following:
+4b) Include a responsive layout for smaller screens.
+4c) Included a navbar which collapses and hamburgers the toggle options for smaller screens.
+4d) Swaps the large layout for the small one once the screen size changes to fit the criteria of small screens,
+and vice vera for large screens.
+4e) Made sure to swap out the floats for the smaller screen html configuration so that the pictures align prop-
+erly.
+4f) Using the classes "d-none d-lg-block" and "d-lg-none" i was able to create the changing layout between large and small screens.
+5) Created semantic html elements and made sure they fall in sequential order.
+6) Made sure that all the images had proper alt attributes. 
+7) I commented some of the changes that were more nuanced so that they can be identified.
