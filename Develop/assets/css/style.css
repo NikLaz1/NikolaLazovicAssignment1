@@ -74,6 +74,10 @@ p {
     margin-left: 20px;
 }
 
+.content-small {
+    width: 100%;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -142,10 +146,26 @@ p {
     color: #ffffff;
 }
 
+.search-engine-optimization-small {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management-small {
+    margin-bottom: 20px;
+    padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -160,7 +180,19 @@ p {
     color: #ffffff;
 }
 
+.social-media-marketing-small {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 .search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization-small img {
     max-height: 200px;
 }
 
@@ -168,7 +200,15 @@ p {
     max-height: 200px;
 }
 
+.online-reputation-management-small img {
+    max-height: 200px;
+}
+
 .social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing-small img {
     max-height: 200px;
 }
 
